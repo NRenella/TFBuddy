@@ -1,0 +1,204 @@
+name: tfbuddy
+description: An app to help with tft item combos and builds
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.1.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/01.png
+     - assets/02.png
+     - assets/03.png
+     - assets/04.png
+     - assets/05.png
+     - assets/06.png
+     - assets/07.png
+     - assets/08.png
+     - assets/09.png
+     - assets/11.png
+     - assets/12.png
+     - assets/13.png
+     - assets/14.png
+     - assets/15.png
+     - assets/16.png
+     - assets/17.png
+     - assets/18.png
+     - assets/19.png
+     - assets/22.png
+     - assets/23.png
+     - assets/24.png
+     - assets/25.png
+     - assets/26.png
+     - assets/27.png
+     - assets/28.png
+     - assets/29.png
+     - assets/33.png
+     - assets/34.png
+     - assets/35.png
+     - assets/36.png
+     - assets/37.png
+     - assets/38.png
+     - assets/39.png
+     - assets/44.png
+     - assets/45.png
+     - assets/46.png
+     - assets/47.png
+     - assets/48.png
+     - assets/49.png
+     - assets/55.png
+     - assets/56.png
+     - assets/57.png
+     - assets/58.png
+     - assets/59.png
+     - assets/66.png
+     - assets/67.png
+     - assets/68.png
+     - assets/69.png
+     - assets/77.png
+     - assets/78.png
+     - assets/79.png
+     - assets/88.png
+     - assets/89.png
+     - assets/99.png
+     - assets/empty.png
+     - assets/ahri.png
+     - assets/annie.png
+     - assets/ashe.png
+     - assets/aurelionsol.png
+     - assets/blitzcrank.png
+     - assets/caitlyn.png
+     - assets/chogath.png
+     - assets/darius.png
+     - assets/ekko.png
+     - assets/ezreal.png
+     - assets/fiora.png
+     - assets/fizz.png
+     - assets/gangplank.png
+     - assets/garen.png
+     - assets/graves.png
+     - assets/irelia.png
+     - assets/jarvaniv.png
+     - assets/jayce.png
+     - assets/jhin.png
+     - assets/jinx.png
+     - assets/kaisa.png
+     - assets/karma.png
+     - assets/kassadin.png
+     - assets/kayle.png
+     - assets/khazix.png
+     - assets/leona.png
+     - assets/lucian.png
+     - assets/lulu.png
+     - assets/lux.png
+     - assets/malphite.png
+     - assets/masteryi.png
+     - assets/missfortune.png
+     - assets/mordekaiser.png
+     - assets/neeko.png
+     - assets/poppy.png
+     - assets/rakan.png
+     - assets/rumble.png
+     - assets/shaco.png
+     - assets/shen.png
+     - assets/sona.png
+     - assets/soraka.png
+     - assets/syndra.png
+     - assets/thresh.png
+     - assets/twistedfate.png
+     - assets/velkoz.png
+     - assets/vi.png
+     - assets/wukong.png
+     - assets/xayah.png
+     - assets/xerath.png
+     - assets/xinzhao.png
+     - assets/yasuo.png
+     - assets/ziggs.png
+     - assets/zoe.png
+     - assets/blademaster.png
+     - assets/blaster.png
+     - assets/brawler.png
+     - assets/celestial.png
+     - assets/chrono.png
+     - assets/cybernetic.png
+     - assets/darkstar.png
+     - assets/demolitionist.png
+     - assets/infiltrator.png
+     - assets/manareaver.png
+     - assets/mechpilot.png
+     - assets/mercenary.png
+     - assets/mystic.png
+     - assets/protector.png
+     - assets/rebel.png
+     - assets/sniper.png
+     - assets/sorcerer.png
+     - assets/spacepirate.png
+     - assets/starguardian.png
+     - assets/starship.png
+     - assets/valkyrie.png
+     - assets/vanguard.png
+     - assets/void.png
+
+flutter_launcher_name:
+   name: "TFBuddy"
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
